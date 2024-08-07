@@ -1,5 +1,8 @@
 # DGN-Store
-In This Project We Are Going To Write A SmartContract In Solidity With ERC20 Standards Which Can Perform Basic Functions Like :mint(onlyOwner),Transfer Token,Get Balance of Token And Also Burn Token And Deploy The Contract Into Fuji C-chain Of Avalanche Network.Name Of The Token Used Is "Degen" With Symbol "DGN" .And Interacting With The Contract By Calling THe Contract Into REMIX IDE By Injecting The METAMASK. We Are Also Providing An inBuilt Store In The Contract Which Allow User To Redeem And Recruit Players For Their Football Club In Exchange Of Tokens.The User Are Given With some Details Of Players That Can Be  Recruited By Passing Their ID To Redeem Function.One Player Can Only Be Recruited by One User Which Makes The Game Interesting And FUN TO PLAY!!!
+* In This Project We Are Going To Write A SmartContract In Solidity With ERC20 Standards Which Can Perform Basic Functions Like :mint(onlyOwner),Transfer Token,Get Balance of Token And Also Burn Token And Deploy The Contract Into Fuji C-chain Of Avalanche Network.
+* Name Of The Token Used Is "Degen" With Symbol "DGN" .
+* And Interacting With The Contract By Calling THe Contract Into REMIX IDE By Injecting The METAMASK. We Are Also Providing An inBuilt Store In The Contract Which Allow User To Redeem And Recruit Players For Their Football Club In Exchange Of Tokens.
+* The User Are Given With some Details Of Players That Can Be  Recruited By Passing Their ID To Redeem Function.One Player Can Only Be Recruited by One User Which Makes The Game Interesting And FUN TO PLAY!!!
 The Main Components That Needed To Build The Project is :
 * NodeJS
 * HardHat
@@ -34,7 +37,8 @@ Burnable
 * Dont Forget to Add Your Private Key In env File And Rename That File To ".env"
 * After That You Guys Are Good To Deploy Your Contracts To Fuji TestNetWork
 ## Logic
-The Store Is Made Alive By Using Struct To Store The Information Of Players And 
+* The Store Is Made Alive By Using Struct To Store The Information Of Players And Mapping It To Integers For Using As ID's Of Player .
+* Other Functions Like listing And Redeem Are Developed By Using For Loop And If Conditions To Extract Details From Struct With Specific Conditions
 ## Executing Programme
 Inorder For Coding and Running The Comands You Can Use Ofline IDE's Like [Visual Code Studio](https://code.visualstudio.com/) Or You Can Code Your Smart Contract Using Online IDE's Like [Remix](https://remix.ethereum.org/):
 * First You Need To Install NodeJs On Your System You Can Download nodejs From [here](https://nodejs.org/)
