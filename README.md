@@ -38,6 +38,16 @@ Burnable
 * After That You Guys Are Good To Deploy Your Contracts To Fuji TestNetWork
 ## Logic
 * The Store Is Made Alive By Using Struct To Store The Information Of Players And Mapping It To Integers For Using As ID's Of Player .
+````
+struct FBclub{
+        uint256 id;
+        string name;
+        uint256 bid;
+        uint256 age;
+        string role;
+        bool status;
+    }
+````
 * Other Functions Like listing And Redeem Are Developed By Using For Loop And If Conditions To Extract Details From Struct With Specific Conditions
 ## Executing Programme
 Inorder For Coding and Running The Comands You Can Use Ofline IDE's Like [Visual Code Studio](https://code.visualstudio.com/) Or You Can Code Your Smart Contract Using Online IDE's Like [Remix](https://remix.ethereum.org/):
@@ -71,6 +81,11 @@ Explorer: https://testnet.snowtrace.io/
 * You Can mint DGN Token Using Owners Account
 * You Can Get Receuitment List And See The details Of Players by Calling Fn ListRecruits()
 * Redeem Player By Passing The ID Of The Player using RedeemPlayers(ID)
+1.Ronaldo
+2.Messi
+3.Neymar
+4.Mbappe
+5.Suarez
 * See The Redeemed Player Details By Calling Function RecruitedPlayers()
 * Track The Performed Transaction in [SnowTrace](https://testnet.snowtrace.io/)
 ## Explore Your Creativity
